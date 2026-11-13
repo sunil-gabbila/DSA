@@ -1,91 +1,58 @@
-# DSA Practice in Java
+# Java DSA Practice
 
-This repository is a Java-based Data Structures and Algorithms (DSA) practice workspace focused on solving common coding interview and competitive programming problems.
+A beginner-friendly, interview-focused collection of Data Structures and Algorithms practice in Java. This repository organizes solutions and exercises by topic so you can build fundamentals, recognize common problem-solving patterns, and prepare for coding interviews.
 
-The goal is to build a strong foundation in problem solving by covering:
+## Topics and Learning Path
 
-- Java fundamentals
-- Array and string problems
-- Hashing and frequency-based questions
-- Prefix sum and running sum patterns
-- Searching and sorting techniques
-- Sliding window problems
-- Interview-style practice questions
+Work through the folders in order, or jump to a topic you want to practice:
 
-## Repository Structure
+| # | Topic | What you'll practice |
+|---|---|---|
+| 1 | [Java Basics](01-Java-Basics/) | Core Java syntax and programming fundamentals |
+| 2 | [Arrays & Strings](02-Arrays-Strings/) | Traversal, transformations, and common array/string problems |
+| 3 | [HashMap & HashSet](03-HashMap-HashSet/) | Fast lookups, duplicate detection, and grouping |
+| 4 | [Frequency Problems](04-Freaquency-Problems/) | Counting occurrences and solving frequency-based questions |
+| 5 | [Prefix Sum & Running Sum](05-PrefixSum-RunningSum/) | Cumulative sums and efficient range or subarray calculations |
+| 6 | [Searching & Sorting](06-Searching-Sorting/) | Search techniques and sorting-based problem solving |
+| 7 | [Sliding Window](07-Sliding-Window-Pattern/) | Efficient solutions for contiguous array and string problems |
+| 8 | [Interview Practice](08-Interview-Practice/) | Mixed practice for applying and reinforcing patterns |
 
-```text
-DSA/
-├── 01-Java-Basics/
-├── 02-Arrays-Strings/
-├── 03-HashMap-HashSet/
-├── 04-Freaquency-Problems/
-├── 05-PrefixSum-RunningSum/
-├── 06-Searching-Sorting/
-├── 07-Sliding-Window-Pattern/
-├── 08-Interview-Practice/
-├── DSA/
-├── README.md
-└── .gitignore (if present)
-```
+## How to Practice
 
-## Topics Covered
+1. Choose a problem and make sure you understand its input, output, and constraints.
+2. Try a straightforward solution before optimizing it.
+3. Identify the relevant data structure or pattern and explain why it fits.
+4. Implement the solution, then test normal cases, edge cases, and larger inputs.
+5. Review the time and space complexity and revisit the problem later without looking at your earlier solution.
 
-### 1. Java Basics
-Introductory Java programs, syntax, control flow, and basic problem solving patterns.
+For interview practice, try to explain your approach and complexity out loud before coding. Focus on correctness and clarity first, then improve efficiency.
 
-### 2. Arrays & Strings
-Problems related to traversal, manipulation, subarrays, string operations, and array-based logic.
+## Requirements
 
-### 3. HashMap & HashSet
-Frequency counting, duplicates, grouping, and efficient lookups using hash-based collections.
-
-### 4. Frequency Problems
-Common problems involving counts, occurrences, and matching elements based on frequency.
-
-### 5. Prefix Sum / Running Sum
-Efficient precomputation techniques for subarray sum, cumulative calculations, and optimization tricks.
-
-### 6. Searching & Sorting
-Binary search, linear search, sorting strategies, and array organization techniques.
-
-### 7. Sliding Window
-Window-based optimization patterns for arrays and strings.
-
-### 8. Interview Practice
-Mixed problem sets designed to mimic coding interview preparation.
-
-## How to Use This Repository
-
-1. Start from the fundamentals in `01-Java-Basics`.
-2. Move through the topic folders in order.
-3. Read the problem statement, understand the approach, and then implement the solution in Java.
-4. Practice multiple times until the logic becomes natural.
-
-## Java Setup
-
-Make sure Java is installed on your system.
+Install a JDK and confirm that Java and the Java compiler are available:
 
 ```bash
 java -version
 javac -version
 ```
 
-Run a Java file:
+## Compile and Run a Solution
+
+From the directory containing a standalone Java source file, compile it and run its class. Replace `Solution` with the class name declared in the file:
 
 ```bash
-javac FileName.java
-java FileName
+javac Solution.java
+java Solution
 ```
 
-## Notes
+Some exercises may have their own entry-point class or require input in a particular format; check the source file before running it.
 
-This repository is intended for learning, practice, and revision. It is a good resource for students, interview candidates, and anyone looking to strengthen DSA fundamentals in Java.
+## Repository Notes
 
-## Contribution
+- Solutions are written in Java.
+- Folders are grouped by topic to make focused practice easier.
+- This is a learning and interview-preparation repository; use the problems to understand the underlying ideas, not just to copy solutions.
 
-Feel free to add more exercises, improve explanations, or contribute optimized solutions.
+## Contributing
 
-## License
-
-This project is provided for educational purposes.
+Suggestions and additional practice solutions are welcome. Keep new work organized in the relevant topic folder, use clear class and file names, and include useful examples or explanations where appropriate.
