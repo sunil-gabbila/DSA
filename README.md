@@ -17,7 +17,14 @@ This repository collects Java solutions and exercises for data structures and al
 
 ## Consolidated sources
 
-Standalone Java solutions from the related collections are organized in the topic directories above. See [`CONSOLIDATED-SOURCES.md`](CONSOLIDATED-SOURCES.md) for directory details. The source repositories are retained unchanged:
+Java solutions from the related collections are organized into topic-specific subdirectories:
+
+- [`03-HashMap-HashSet/hashmap/`](03-HashMap-HashSet/hashmap/) — mappings, character counts, anagrams, and HashMap problems.
+- [`04-Freaquency-Problems/frequency/`](04-Freaquency-Problems/frequency/) — duplicate, count, and frequency problems.
+- [`05-PrefixSum-RunningSum/prefixsum/`](05-PrefixSum-RunningSum/prefixsum/) — prefix-sum and subarray-sum solutions.
+- [`05-PrefixSum-RunningSum/runningsum/`](05-PrefixSum-RunningSum/runningsum/) — running sums, range sums, and equilibrium sums.
+
+Original source repositories are preserved as references:
 
 - [DSA-HashMap](https://github.com/sunil-gabbila/DSA-HashMap)
 - [DSA-Frequency](https://github.com/sunil-gabbila/DSA-Frequency)
@@ -33,4 +40,6 @@ Standalone Java solutions from the related collections are organized in the topi
 
 ## Requirements
 
-Install a JDK and verify `java -version` and `javac -version`. For a standalone solution, run `javac FileName.java` and then `java ClassName` from its directory. Check each exercise for its input format.
+Install a JDK and verify `java -version` and `javac -version`. For a standalone solution, run `javac FileName.java` and then `java ClassName` from its directory. Check each exercise for its input format and package declaration.
+
+Solutions are intended for learning and interview preparation. Keep new exercises in the topic directory that best matches the problem-solving technique.
